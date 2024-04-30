@@ -5,7 +5,7 @@ from django.views.generic import ListView, DetailView
 
 
 def home(request):
-    return render(request, '/home.html')
+    return render(request, 'switch/home.html')
 
 def card_details(request):
     return render(request, 'switch/card_details.html')

@@ -13,9 +13,9 @@ app_name = "switch"
 
 urlpatterns = [
     path(
-        '/home/',
+        '/home-anasehife',
         home,
-        name="home" 
+        name="home-anasehife" 
     ),
     path(
         '/card-details',
