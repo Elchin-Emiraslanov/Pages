@@ -13,7 +13,7 @@ app_name = "switch"
 
 urlpatterns = [
     path(
-        '/home-anasehife',
+        '',
         home,
         name="home-anasehife" 
     ),
