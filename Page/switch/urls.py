@@ -18,7 +18,7 @@ urlpatterns = [
         name="home-anasehife" 
     ),
     path(
-        '/card-details',
+        'card-details/',
         card_details,
         name="card-details" 
     ),

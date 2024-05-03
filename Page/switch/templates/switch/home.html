@@ -42,7 +42,12 @@
         {% for card in cards %}
         <a href="{% url 'switch:card-details' %}">
           <div class="card">
-            <img src="{{ card.img_url }}" alt="Avatar" />
+            <!-- 
+
+              add: added choose File field  admin input 
+              add: img path = card.image.url 
+              -->
+            <img src="{{ card.image.url }}" alt="Avatar" />
             <div class="bottom-text">
               <h4><b>{{card.title}}</b></h4>
               <p>{{card.descriptions}}</p>
